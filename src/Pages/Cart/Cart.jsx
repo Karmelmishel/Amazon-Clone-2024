@@ -5,7 +5,7 @@ import { DataContext } from "../../Components/DataProvider/Dataprovider";
 import ProductCard from "../../Components/Product/ProductCard";
 import Currencyformat from "../../Components/CurrencyFormat/Currencyformat";
 import { Link } from "react-router-dom";
-import { Type } from "../../Utility/Action.type";
+import { Type } from "../../Utility/action.type";
 
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";

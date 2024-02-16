@@ -8,7 +8,7 @@ import {
 } from "firebase/auth";
 import { ClipLoader } from "react-spinners";
 import { DataContext } from "../../Components/DataProvider/Dataprovider/";
-import { Type } from "../../Utility/Action.type";
+import { Type } from "../../Utility/action.type";
 
 const Auth = () => {
   const [email, setEmail] = useState("");

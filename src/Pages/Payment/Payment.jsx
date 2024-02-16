@@ -9,7 +9,7 @@ import { axiosInstance } from "../../Api/axios";
 import { ClipLoader } from "react-spinners";
 import { db } from "../../Utility/firebase";
 import { useNavigate } from "react-router-dom";
-import { Type } from "../../Utility/Action.type";
+import { Type } from "../../Utility/action.type";
 const Payment = () => {
   const [{ user, basket }, dispatch] = useContext(DataContext);
   const totalItem = basket?.reduce((amount, item) => {
