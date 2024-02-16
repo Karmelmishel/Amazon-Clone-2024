@@ -6,7 +6,7 @@ import  "./Product.css";
 import { Link } from "react-router-dom";
 import Currencyformat from "../CurrencyFormat/Currencyformat";
 import { DataContext } from "../DataProvider/Dataprovider";
-import { Type } from "../../Utility/Action.type";
+import { Type } from "../../Utility/action.type";
 const ProductCard = ({ product, flex, renderDesc, renderAdd }) => {
   const { image, title, id, rating, price, description } = product;
 
