@@ -74,7 +74,7 @@ const Payment = () => {
   return (
     <LayOut>
       {/* header */}
-      <div className="p-5 text-[24px] text-center bg-slate-200">
+      <div className="p-5 text-[24px] text-center bg-slate-200 ">
         Checkout ({totalItem}) items
       </div>
       {/* payment method */}
